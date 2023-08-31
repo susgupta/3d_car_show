@@ -11,6 +11,7 @@ import Car from "./Car";
 import Rings from "./Rings";
 import Boxes from "./Boxes";
 import FloatingGrid from "./FloatingGrid";
+import CanvasLoader from "./CanvasLoader";
 import { Bloom, ChromaticAberration, EffectComposer } from "@react-three/postprocessing";
 import { BlendFunction } from "postprocessing";
 
