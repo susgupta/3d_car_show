@@ -4,8 +4,6 @@ function CanvasLoader () {
 
     const { progress } = useProgress();
 
-    console.log("In Loader");
-
     return (
        <Html
         as='div'
