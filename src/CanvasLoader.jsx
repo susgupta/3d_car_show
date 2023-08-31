@@ -4,6 +4,8 @@ function CanvasLoader () {
 
     const { progress } = useProgress();
 
+    console.log("In Loader");
+
     return (
        <Html
         as='div'
@@ -12,7 +14,7 @@ function CanvasLoader () {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            flexDirection: "column",
+            flexDirection: "column"
         }}
        >
         
@@ -20,10 +22,10 @@ function CanvasLoader () {
 
         <p
             style={{
-            fontSize: 14,
-            color: "#F1F1F1",
-            fontWeight: 800,
-            marginTop: 40,
+                fontSize: 14,
+                color: "#F1F1F1",
+                fontWeight: 800,
+                marginTop: 40
             }}
         >
             {progress.toFixed(2)}%

@@ -85,11 +85,11 @@ function App() {
   }
 
   return (
-      <Suspense fallback={null}>
-        <Canvas shadows>
+      <Canvas shadows>
+        <Suspense fallback={<CanvasLoader />}>
           <CarShow />
-        </Canvas>
-      </Suspense>
+        </Suspense>
+      </Canvas>
   );
 }
 
