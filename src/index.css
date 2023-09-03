@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap');
+
+:root {
+  --title-font-family: 'Playfair Display', 'serif';
+  --body-font-family: 'Poppins', 'sans-serif';
+}
+
 html, body, #root, canvas {
     width: 100%;
     height: 100%;
     margin: 0;
     overflow: hidden;
+    background-color: #363636;
+    font-family: var(--body-font-family);
 }
 
 /* canvas- styles */
