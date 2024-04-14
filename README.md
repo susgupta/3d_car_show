@@ -21,6 +21,6 @@ This is an interactive demo to produce an effect of moving car in 3D space.  In 
 
 The application was publised using [GitHub Pages](https://pages.github.com/). In addition a custom Github action is used to deploy on Github pages.
 
-Here is link to view the application:
+Here is link to view the application and try it:
 
 [Sushil G 3D Car Show Demo](https://susgupta.github.io/3d_car_show/)
